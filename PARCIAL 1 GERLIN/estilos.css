@@ -1,0 +1,580 @@
+html{
+    margin: 0;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+
+body{
+    margin: 0;
+}
+
+.Wave2{
+    position: relative;
+    width: 100%;
+    bottom: -10px;
+
+}
+
+br{
+    height: 30px;
+}
+header{
+    display: flex;
+    background: rgba(42,156,66,255);
+    min-height: 120px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.logo{
+    display: flex;
+}
+
+.logo img{
+    height: 90px;
+}
+
+nav a:hover{
+    text-decoration: solid;
+    cursor: pointer;
+    color: black;
+}
+
+.parrafo-1{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    background-color:rgba(42,156,66,255);
+    padding: 45px;
+    align-items: center;
+    font-size: 35px;
+    color: white;
+    padding-right: 60px;
+    
+    
+}
+
+.texto{
+    flex-direction: column;
+    width: 30%;
+    
+    
+}
+
+#imagen_1{
+    width: 600px;
+    height: 500px;
+    float: right;
+    margin: 80px;
+    border-top: 5px;
+    border: 10px;
+
+}
+
+.beneficios{
+    justify-content: center;
+}
+
+.beneficios h1{
+    flex-direction: column;
+    color:linear-gradient(90deg, rgb(224, 228, 224) 0%, rgb(109, 151, 118) 0%, rgb(142, 146, 143) 100%);
+    justify-content: space-evenly;
+}
+
+.beneficios p{
+    color: black;
+}
+
+.Pro #imagen_2 {
+    width: 700px;
+    height: 500px;
+    align-items: center;
+    margin: auto;
+    border-top: 5px;
+    border: 20px;
+    background: white;
+    display: flex;
+
+
+}
+
+.Pro{
+    background: rgb(253, 253, 253);
+    display: block;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    
+}
+
+.Pro h5{
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    color: rgb(1, 81, 230);
+    font-size: 20px;
+    white-space: 10px;
+}
+
+.Pro h1{
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    color: rgb(0, 1, 3);
+    font-size: 30px;
+}
+
+.Pro p{
+    padding: 16px;
+    justify-content: center;
+    color: rgb(1, 81, 230);
+    font-size: 20px;
+    display: block;
+}
+
+.Be{
+    height: 200px;
+    display: flex;
+    color: green;
+    text-align: center;
+
+}
+
+.Be p{
+    color: black;
+    text-align: center;
+}
+
+.parrafos{
+    display: flex;
+
+}
+
+.requisitos{
+    display: flex;
+}
+
+.parrafo1 .parrafo2{
+    text-align: center;
+    justify-items: center;
+
+}
+
+.A1 .A2{
+    text-align: center;
+    justify-items: center;
+
+}
+
+.card{
+    width: 100%;
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card_requisitos{
+    width: 310px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #d3d3d39c;
+    box-shadow: 2px 2px 2px 2px;
+}
+
+.card_protocolo{
+    width: 310px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #d3d3d39c;
+    box-shadow: 2px 2px 2px 2px;
+}
+
+.card_Refinanciacion{
+    width: 310px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #d3d3d39c;
+    box-shadow: 2px 2px 2px 2px;
+}
+
+.titulo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 30px;
+    color: rgb(0, 0, 0);
+
+}
+
+.titulo h2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 30px;
+    color: rgb(4, 115, 129);
+
+}
+
+.aliniacion{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0px 12px 0px 12px;
+}
+
+.contenedor-imagenes{
+    background: rgba(40,154,64,255);
+    height: 400px;
+}
+
+.columnas{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0px 10% 0px 10%;
+    padding: 40px 0px 40px 0px;
+}
+
+.enlace{
+    text-align: center;
+    width: auto;
+    height: 40px;
+    margin: auto;
+    display: flex;
+    background: rgba(211, 211, 211, 0.123);
+    border: 5px;
+    padding: 0;
+}
+
+.portadas{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 300px;
+    border: 1px solid lightgray;
+    border-radius: 8px;
+    font-family: sans-serif;
+    margin: 0px 12px 0px 12px;
+    text-align: center;
+    background: linear-gradient(90deg, rgb(224, 228, 224) 0%, rgb(109, 151, 118) 0%, rgb(142, 146, 143) 100%);
+}
+
+.portadas img{
+    height: 200px;
+    width: 80%;
+    border-radius: 5px 5px 0px 0px;
+}
+
+#contenedor-imagenes{
+    background: rgba(0, 128, 0, 0.555);
+    background-size: 50px;
+    height: 40px;
+    color: white;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+
+.aliniacion_2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0px 12px 0px 12px;
+}
+
+.card_descarga{
+    width: 310px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #d3d3d39c;
+    box-shadow: 2px 2px 2px 2px;
+}
+
+.card_estado{
+    width: 310px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #d3d3d39c;
+    box-shadow: 2px 2px 2px 2px;
+}
+
+.card_Resoluciones{
+    width: 310px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #d3d3d39c;
+    box-shadow: 2px 2px 2px 2px;
+}
+
+.titulo_2 h2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+    padding: 30px;
+    color: rgb(2, 131, 41);
+    font-size: 25px;
+
+}
+
+.card-descripcion_2{
+    color:black;
+    text-align: center;
+
+}
+
+.card_2{
+    width: 100%;
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.cont_1{
+    padding: 20px;
+}
+
+.button{
+    background: green;
+}
+
+.cont_3{
+    padding: 10px;
+}
+
+.contenedor-novedades{
+    height: 100px;
+    justify-content: center;
+}
+
+#nov{
+    text-align: center;
+    align-items: center;
+    display: flex;
+    font-size: 30px;
+}
+
+#nov{
+    padding: 5% 0 5% 0;
+    color: green;
+}
+
+.nov_2{
+    
+    background-size: cover;
+    width: 100%;
+    padding: 40% 0 40% 0;
+    margin-bottom: 100px;
+}
+.texto{
+    text-align: center;
+    align-items: center;
+    display: flex;
+    color:white;
+    font-size: 15px;
+}
+.icono{
+    height: 20px;
+}
+
+.columna-novedad{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.ubicacion-ola{
+    margin-top: 1200px;
+    position: absolute;
+}
+
+.fondo{
+    background-image: url(recursos-insumos/colegio.jpg);
+    padding: 40% 0 40% 0;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 100px;
+    margin: 0;
+}
+
+.columnas{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0px 10% 0px 10%;
+}
+.lista{
+    display: flex;
+    flex-direction: row;
+    color: black;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+}
+
+.pie_de_pagina{
+    margin-top: 100px;
+    text-align: center;
+    color: green;
+    padding: 20px;
+}
+
+.white{
+    background-color: #fff;
+    color: rgb(5, 0, 0);
+    padding: 5% 0px 5% 0px;
+}
+
+.interior{
+    display: flex;
+    flex-direction: row;
+    margin: 0px 10% 0px 10%;
+    justify-content: space-between;
+}
+
+.columnas{
+    display: flex;
+    margin: 0px 10% 0px 10%;
+    justify-content: space-between;
+}
+
+.titulo-beneficios{
+    text-align: center;
+    color: green;
+    font-size: 25px;
+}
+
+.titulo h5{
+    font-size: 40px;
+}
+
+.parrafo-4{
+    text-align: center;
+    justify-items: center;
+    background: green;
+    height: 100%;
+}
+
+#imagen_4{
+    width: 600px;
+    height: 400px;
+    float: left;
+    margin: 80px;
+    border-top: 5px;
+    border: 10px;
+}
+
+.parrafo{
+    text-align: center;
+    justify-items: center;
+}
+
+.contenedor-footer{
+    background: #fff;
+    color: #000;
+}
+.columna-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0px 10% 0px 10%;
+    list-style: none;
+}
+
+.lorem{
+    color: #000;
+    text-decoration: none;
+    list-style: none;
+    text-align: center;
+}
+
+.lorem > a{
+    color: #000;
+    list-style: none;
+}
+
+.titulos {
+    color: rgb(31, 167, 4);
+    list-style: none;
+    font-size: 30px;
+}
+
+.cachon{
+    border-radius: 100%;
+}
+
+.posicion_imagen{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    padding: 5% 0px 5% 0px;
+    margin: 0px 10% 0px 10%;
+}
+
+.columna-nosotros {
+    background-color: #008000;
+    color: #fff;
+    padding: 5% 0 5% 0;
+}
+
+.columna-central {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0px 17% 0px 17%;
+    align-items: center;
+    text-align: center;
+
+}
+
+.ubicar-texto{
+    float: right;
+    text-align: center;
+    flex-direction: row;
+}
+
+.direccion-columnas {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0px 10% 0px 10%;
+}
+
+.info{
+    cursor: pointer;
+    background: #008000;
+    color: white;
+    border-radius: 30%;
+    padding: 3px;
+}
+
+.mas{
+    cursor: pointer;
+    background: hsla(120, 65%, 59%, 0.91);
+    color: white;
+    border-radius: 30%;
+    padding: 3px;
+    border: 1px solid #fff;
+}
